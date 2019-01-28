@@ -2,6 +2,7 @@
 	box-sizing: border-box;
 }
 
+
 html, body{
 	height: 100%;
 	width:  100%;
@@ -27,4 +28,38 @@ p{
 .wrapper{
 	margin: 0 auto;
 	width:  600px;
+}
+
+img{
+	float: left; /* Bild einfügen im Text und dann margin geben*/
+	margin: 0 1rem 1rem 0; /*mirar coordenadas*/
+/*position von img egal*/
+}
+
+a{
+	display: inline-block; /*link verwandelt sich in einem Blockelement, deshalb Umbruch, ganze Zeile*/
+	/*wenn inline verwandelt sich nochmal normal als Link, man kann kein height und width geben, funktioniert nicht*/
+	background: yellow;
+	width: 180px;
+	height: 50px;
+
+
+
+
+}
+
+span{
+	background-color:red;
+
+
+}
+
+.erster-buchstabe{
+	font-size: 400%;
+	display: block;
+	float: left;
+
+
+}
+
 }
